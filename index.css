@@ -1,0 +1,16 @@
+.container{
+    max-width: 1024px;      
+}
+
+.carousel-inner img{
+    height: 400px;
+}
+
+#container-card{
+    margin-top: 80px;  
+    margin-bottom: 80px;
+}
+
+#container-card img{    
+    height: 220px;      
+}
