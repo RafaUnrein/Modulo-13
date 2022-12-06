@@ -23,16 +23,23 @@ header{
 }
 
 .col{
-    max-width:100%;        
+    max-width:100%;
+    margin-bottom: 50px;        
 }
 
 .noticias{
-    margin-top: 150px;
+    
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
+.noticias h2{
+    padding-top: 70px;
+}
+
 .card{    
-    max-width: 100%;       
+    max-width: 100%; 
+    border-style: none;      
 }
 
 .card img{
@@ -41,7 +48,7 @@ header{
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 30px;
     background-color: grey;    
     color: white;
@@ -64,6 +71,15 @@ footer {
 
 @media screen and (max-width: 740px){
 
+.carousel-inner img{
+    height: 280px;
+}
+
+.noticias{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .row{
         margin-top: 50px;        
         grid-template-columns: 100%;         
@@ -73,8 +89,10 @@ footer {
         max-width: 100%; 
 }
 
+footer {
+    margin-top: 20px;        
+}
 
-    
 }
 
 }
